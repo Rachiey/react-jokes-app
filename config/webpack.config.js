@@ -14,6 +14,7 @@ const config = {
   },
   mode: 'development', // tells webpack to use its built-in optimisations according to the mode
   resolve: {
+    extensions: [".js", ".jsx"],
     // instructions on how to resolve modules
     modules: [path.resolve('node_modules'), 'node_modules'], // tells webpack where to look for node_modules
   },

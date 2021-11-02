@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const Joke = ({ joke }) => {
+export const Joke = ({ joke, punchline }) => {
     return (
         <ol>
-            <em>{ joke }</em>
+            <strong>{ joke }</strong>
+            <h4>{ punchline }</h4>
         </ol>
     )
 }

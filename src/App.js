@@ -5,7 +5,6 @@ import Jokes from './components/Jokes';
 function App(){
     return (
         <>
-        <Greeting />
         <Jokes />
 
         </>

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    background: url(https://wallpapercave.com/wp/wp8643250.jpg);
+    background-repeat: repeat;
+    max-width: 70%; 
+    justify-content: center;
+    color:black;
+    font-family: 'VT323', monospace;
+
+}
+
+h2 {
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    opacity: 0.8;
+    font-family: 'VT323', monospace;
+    color: white;
+    display: grid;
+    background: url(https://i.pinimg.com/originals/a4/32/43/a43243c7a362f1dc13108b1e2eac7a09.jpg);
+    background-size: cover;
+   
+}
+
+.card:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card.small {
+    height: 100px;
+    width: 100px;
+}
+.card.large {
+    height: 200px;
+    width: 200px;
+}

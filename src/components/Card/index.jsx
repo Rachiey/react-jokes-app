@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './style.css';
+import './styles.css'
 
 export const Card = ({size, joke, punchline}) => {
     const [ showPunchline, setShowPunchline ] = useState(false);
